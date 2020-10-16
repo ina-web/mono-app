@@ -859,29 +859,35 @@ h2.list-title {
 	color: #9DA8B6;
 }
 
-.table-1 {
+.table {
 	width: 25% !important;
+}
+
+
+
+.table {
+	width: 100% !important;
 	border-collapse:separate; 
 	border-spacing:0 15px; 
 	border-radius: 5px;
 }
 
-.table-1 th, .table-1 td {
+.table th, .table td {
 	padding: 0.75rem;
 	vertical-align: top;
 	border-top: 1px solid #EBEDF3;
 }
 
-.table-1 thead th {
+.table thead th {
 	vertical-align: bottom;
 	border-bottom: 2px solid #EBEDF3;
 }
 
-.table-1 tbody + tbody {
+.table tbody + tbody {
 	border-top: 2px solid #EBEDF3;
 }
 
-.table-1 thead th, .table-1 thead td {
+.table thead th, .table thead td {
 	font-weight: 600;
 	font-size: 1rem;
 	border-bottom-width: 1px;
@@ -889,7 +895,7 @@ h2.list-title {
 	padding-bottom: 1rem;
 }
 
-.table-1.table-head-custom thead tr, .table-1.table-head-custom thead th {
+.table.table-head-custom thead tr, .table.table-head-custom thead th {
 	font-weight: 600;
 	color: #B5B5C3 !important;
 	font-size: 0.9rem;
@@ -897,24 +903,24 @@ h2.list-title {
 	letter-spacing: 0.1rem;
 }
 
-.table-1.table-vertical-center th, .table-1.table-vertical-center td {
+.table.table-vertical-center th, .table.table-vertical-center td {
 	vertical-align: middle;
 	background: #FFFFFF;
 	min-width: 40px !important;
 }
 
-.table-1.table-head-bg thead tr, .table-1.table-head-bg thead th {
+.table.table-head-bg thead tr, .table.table-head-bg thead th {
 	background-color: #f8f8f8;
 	border-bottom: 0;
 	letter-spacing: 1px;
 }
 
-.table-1.table-head-bg thead tr:first-child, .table-1.table-head-bg thead th:first-child {
+.table.table-head-bg thead tr:first-child, .table.table-head-bg thead th:first-child {
 	border-top-left-radius: 0.42rem;
 	border-bottom-left-radius: 0.42rem;
 }
 
-.table-1.table-head-bg thead tr:last-child, .table-1.table-head-bg thead th:last-child {
+.table.table-head-bg thead tr:last-child, .table.table-head-bg thead th:last-child {
 	border-top-right-radius: 0.42rem;
 	border-bottom-right-radius: 0.42rem;
 }
